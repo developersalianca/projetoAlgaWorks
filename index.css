@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	height: 60px;
+	border-bottom: 2px solid #CCC;
+}
+
+header img {
+	margin-top: 12px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.apresentacao{
+	display: flex;
+	flex-direction: column;
+	width: 1200;
+	height: 480px;
+	background-color: #28a745;
+	margin-left: 11px ;
+	align-items: center;
+}
+
+.apresentacao h1 {
+	margin-top: 85px;
+	color: #fff;
+	font-size: 60px;
+
+}
+
+.apresentacao p {
+	color: #fff;
+	font-size: 18px;
+}
+
+.apresentacao button {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	background-color: #00008B;
+	color: white;
+	font-size: 18px;
+	border-style: none;
+}
+
+.depoimento{
+	background-color: #CCC;
+	margin-left: 11px;
+}
+
+.planos {
+
+	margin: auto;
+	display: grid;
+	margin-top: 80px;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: 1000px;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 80px;
+
+	gap: 50px;
+}
+
+.planos .plano{
+
+	border: 1px #AAA solid ;
+
+}
+.planos .plano h1{
+
+	margin-top: 0px;
+	background-color: #95a4a5;
+	color: white;
+	padding: 15px 75px 15px 75px;
+	border-bottom: 1px #AAA solid;
+}
+.planos .plano button{
+	background-color: #228B22;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 15px;
+	border-style:none;
+}
